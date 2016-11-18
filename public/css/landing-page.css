@@ -76,6 +76,10 @@ a span{
     letter-spacing: 2px;
 }
 
+.full-height {
+    min-height: 100vh;
+}
+
 /*top nav*/
 
 .topnav {
@@ -295,6 +299,10 @@ p.copyright {
 
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
+        .get-results-padding {
+            padding-top: 60px;
+        }
+
         .get-results-text{
             text-align: left;
             max-width: 80%;
