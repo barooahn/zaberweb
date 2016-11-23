@@ -76,6 +76,11 @@ a span{
     letter-spacing: 2px;
 }
 
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .full-height {
     min-height: 100vh;
 }
@@ -160,7 +165,6 @@ a span{
 
 footer {
     padding: 50px 0;
-    background-color: #f8f8f8;
 }
 
 p.copyright {
@@ -191,7 +195,7 @@ p.copyright {
 .get-results-left img{ display: block; margin:0 auto;}
 
 .get-results-padding{
-    padding-top: 15%;
+    padding-top: 23%;
     padding-bottom: 40px;
 }
 
@@ -300,7 +304,7 @@ p.copyright {
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
         .get-results-padding {
-            padding-top: 60px;
+            padding-top: 7%;
         }
 
         .get-results-text{
@@ -313,7 +317,10 @@ p.copyright {
 
     /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
-
+        .get-results-padding{
+            padding-top: 15%;
+            padding-bottom: 40px;
+        }
     }
 
 
