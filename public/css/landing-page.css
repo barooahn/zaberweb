@@ -61,7 +61,6 @@ p{
 a {
     font:400 14px 'Open Sans', sans-serif ; 
     text-transform:uppercase;
-    padding: 10px 20px;
 } 
 
 a:hover{
@@ -89,6 +88,15 @@ a span{
 .navbar-default {
     background-color: #f4f0ef;
     border-color: #e7e7e7;
+}
+.navbar-default, 
+.navbar-nav>li>a {
+    color: #313131 !important;
+}
+
+.navbar-default, 
+.navbar-nav>li>a:hover {
+    color: #E25333 !important;
 }
 
 .lead {
@@ -151,6 +159,7 @@ a span{
 
 footer {
     padding: 50px 0;
+    background-color: white;
 }
 
 p.copyright {
