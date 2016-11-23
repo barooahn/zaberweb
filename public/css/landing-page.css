@@ -76,9 +76,9 @@ a span{
     letter-spacing: 2px;
 }
 
-.container {
-    padding-left: 20px;
-    padding-right: 20px;
+.container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .full-height {
@@ -199,86 +199,12 @@ p.copyright {
     padding-bottom: 40px;
 }
 
-/*forth wrapper*/
-
-.forth-wrap{ 
-    padding-top:65px;
-    padding-bottom:60px;
+.form-padding {
+    margin-top: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.port {
-    padding-top: 68px;
-}
-.port, .ports, .process .arrow1, .process .arrow2 {
-    clear: both;
-}
-
-.port .left {
-    width: 80%;
-    float: left;
-}
-
-.port .right {
-    width: 20%;
-    float: right;
-}
-
-.ports .thumb {
-    float: left;
-    position: relative;
-    width: 25%;
-    height: auto;
-    text-align: center;
-}
-
-.ports .thumb .info {
-    display: none;
-    position: absolute;
-    top: 0;
-    background: url(https://3vehpv1afj9620a3gdmaby2gmg-wpengine.netdna-ssl.com/wp-content/themes/thomasdigital/images/opacity2.png);
-    width: 100%;
-    height: 100%;
-}
-
-.ports .thumb .info .links {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-.ports .thumb img {
-    display: block;
-    height: auto;
-    width: 100%;
-}
-
-.ports .thumb .info a {
-    display: inline-block;
-    font-size: 13px;
-    font-weight: 700;
-    color: #545454;
-    background: #FFF;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    width: 100px;
-    height: 40px;
-    padding-top: 11px;
-    -webkit-transition: all .5s ease-out;
-    transition: all .5s ease-out;
-    margin: 0 3px;
-}
-
-.ports .thumb .info h3 {
-    font-size: 17px;
-    line-height: 18px;
-    font-weight: 400;
-    color: #FFF;
-    margin-top: 35px;
-}
 
    @media only screen and (min-width : 320px) {
         .get-results-text{
