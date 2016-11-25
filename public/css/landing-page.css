@@ -110,8 +110,6 @@ a span{
     padding-top: 120px;
 }
 
-
-
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
@@ -200,6 +198,17 @@ p.copyright {
     padding-bottom: 20px;
 }
 
+/* our work */
+
+.our-work {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.work-thumbs{
+    padding: 20px 0;
+}
+
 
    @media only screen and (min-width : 320px) {
         .get-results-text{
@@ -210,6 +219,10 @@ p.copyright {
         .banner-img{
             padding-bottom: 40px;
         }
+        .button-find{
+            margin: 30px auto;
+        }
+
     }
 
     /* Extra Small Devices, Phones */ 
